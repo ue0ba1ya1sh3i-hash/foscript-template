@@ -1,19 +1,19 @@
 {
-  "name": "create-foscript-template",
+  "name": "foscript-template",
   "version": "1.0.0",
-  "description": "This module is used to create a foscript template.",
+  "description": "This module is used to run a foscript template.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "tsx watch src/index.ts"
   },
   "bin": {
-    "create-foscript-template": "dist/index.js"
+    "foscript-template": "dist/index.js"
   },
   "keywords": [
     "foscript",
     "template",
-    "create"
+    "run"
   ],
   "author": "Arata Uebayashi",
   "license": "ISC",
