@@ -1,0 +1,20 @@
+{
+  "name": "create-foscript-template",
+  "version": "1.0.0",
+  "description": "This module is used to create a foscript template.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx tsc && node dist/index.js"
+  },
+  "bin": {
+    "create-foscript-template": "dist/index.js"
+  },
+  "keywords": ["foscript", "template", "create"],
+  "author": "Arata Uebayashi",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
